@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top">
+    
+    <p id="score">Score:</p>
+    <p id="chn">Chance:</p>
+</div>
+    <div id="opt">
+    <p id="easy" onclick="easy()">easy</p>
+    <p id="medium" onclick="medium()">medium</p>
+    <p id="hard" onclick="hard()">hard</p>
+</div>
+<p id="level"></p>
+    <p id="qn">what is the value <span id="n1"></span>+<span id="n2"></span> is</p>
+    <br>
+    
+    <input type="number" autofocus checked required  id="ans" placeholder="Enter Ans">
+    <div id="button">
+    <button type="submit" onclick="fun()" id="but2">submit</button><br>
+    <button type="submit" onclick="nxt()" id="but">Start</button>
+    <br><button type="submit" onclick="stop()" id="but1">Stop</button>
+    <br>
+</div>
+    <p id="result"></p>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
